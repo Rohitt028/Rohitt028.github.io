@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
     <url>
         <loc>https://rohitt028.github.io/</loc>
+
+        <image:image>
+            <image:loc>https://rohitt028.github.io/vlsi-design-flow-rtl-to-gdsii.png.jpeg</image:loc>
+        </image:image>
+
     </url>
 
 </urlset>
