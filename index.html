@@ -4,54 +4,129 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>VLSI Design Flow - RTL to GDSII</title>
+    <title>VLSI Design Flow: RTL to GDSII - Complete Guide</title>
 
     <meta name="description"
-          content="Complete VLSI Design Flow from RTL design to GDSII including verification, synthesis, DFT, floorplanning, placement, CTS, routing and physical verification.">
+          content="Learn the complete VLSI Design Flow from specification and RTL design through verification, synthesis, physical design, routing, sign-off and GDSII. Original VLSI Design Flow diagram by Rohit Itware.">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+          content="VLSI Design Flow, VLSI flow, RTL to GDSII, semiconductor design flow, physical design flow, ASIC design flow">
+
+    <meta name="author" content="Rohit Itware">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <h1>VLSI Design Flow - RTL to GDSII</h1>
+    <h1>VLSI Design Flow: RTL to GDSII</h1>
 
     <p>
-        VLSI Design Flow is the sequence of steps used to transform
-        a digital design specification into a physical integrated circuit.
+        The <strong>VLSI Design Flow</strong> is the sequence of steps
+        used to transform an integrated circuit specification into a
+        manufacturable chip. It covers the complete process from
+        specification and RTL design to physical design and GDSII.
     </p>
 
-   <h2>Complete VLSI Design Flow</h2>
+    <h2>Complete VLSI Design Flow Diagram</h2>
 
-<p>
-    The VLSI design process includes RTL design, functional verification,
-    synthesis, Design for Testability (DFT), floorplanning, placement,
-    Clock Tree Synthesis (CTS), routing, physical verification and GDSII generation.
-</p>
+    <p>
+        The following original diagram illustrates the major stages of
+        the VLSI design flow, including RTL design, functional verification,
+        synthesis, Design for Testability (DFT), floorplanning, placement,
+        Clock Tree Synthesis (CTS), routing, physical verification and GDSII generation.
+    </p>
 
-<img src="vlsi-design-flow-rtl-to-gdsii.png.jpeg"
-     alt="VLSI Design Flow from RTL Design to GDSII"
-     width="100%">
+    <figure>
 
-<p>
-    Original VLSI Design Flow diagram created by Rohit Itware.
-</p>
+        <img
+            src="vlsi-design-flow-rtl-to-gdsii.png.jpeg"
+            alt="VLSI Design Flow from RTL Design to GDSII showing synthesis, verification, floorplanning, placement, clock tree synthesis, routing and physical verification"
+            width="100%"
+            loading="eager">
 
-    <h2>VLSI Design Flow Stages</h2>
+        <figcaption>
+            VLSI Design Flow from RTL to GDSII — Original diagram created by Rohit Itware.
+        </figcaption>
+
+    </figure>
+
+    <h2>Stages of VLSI Design Flow</h2>
 
     <ol>
-        <li>Specification</li>
-        <li>RTL Design</li>
-        <li>Functional Verification</li>
-        <li>Logic Synthesis</li>
-        <li>Design for Testability</li>
-        <li>Floorplanning</li>
-        <li>Placement</li>
-        <li>Clock Tree Synthesis</li>
-        <li>Routing</li>
-        <li>Physical Verification</li>
-        <li>GDSII Generation</li>
+
+        <li>
+            <strong>Specification</strong> – Define the functionality,
+            performance, power and area requirements.
+        </li>
+
+        <li>
+            <strong>RTL Design</strong> – Describe the digital hardware
+            using an HDL such as Verilog or VHDL.
+        </li>
+
+        <li>
+            <strong>Functional Verification</strong> – Verify that the
+            RTL design behaves according to the specification.
+        </li>
+
+        <li>
+            <strong>Logic Synthesis</strong> – Convert RTL into a
+            technology-dependent gate-level netlist.
+        </li>
+
+        <li>
+            <strong>Design for Testability</strong> – Add structures
+            such as scan chains to improve chip testing.
+        </li>
+
+        <li>
+            <strong>Floorplanning</strong> – Define the physical
+            organization and major regions of the chip.
+        </li>
+
+        <li>
+            <strong>Placement</strong> – Determine physical locations
+            for standard cells and other design elements.
+        </li>
+
+        <li>
+            <strong>Clock Tree Synthesis</strong> – Build the clock
+            distribution network and control clock skew.
+        </li>
+
+        <li>
+            <strong>Routing</strong> – Connect the placed cells using
+            the available metal layers.
+        </li>
+
+        <li>
+            <strong>Physical Verification</strong> – Check the layout
+            using processes such as DRC and LVS.
+        </li>
+
+        <li>
+            <strong>GDSII Generation</strong> – Generate the final
+            layout database used for semiconductor manufacturing.
+        </li>
+
     </ol>
+
+    <h2>RTL to GDSII</h2>
+
+    <p>
+        The VLSI flow can be broadly divided into front-end design and
+        back-end physical design. Front-end activities include
+        specification, RTL design, verification and synthesis.
+        Back-end activities include floorplanning, placement,
+        Clock Tree Synthesis, routing and physical verification.
+        The final physical layout is exported as GDSII.
+    </p>
+
+    <p>
+        <strong>Original diagram:</strong> Created by Rohit Itware.
+    </p>
 
 </body>
 
